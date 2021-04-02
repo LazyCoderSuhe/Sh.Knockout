@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>LazyCoder</Authors>
+    <Product>Sh.Knockout</Product>
+    <Description>这里现在只是封装了 分页 的控件信息 后期将继续封装关于 KO 与jq 的表单验证信息 方便 自己使用 同时每功能单 用单独的 readme 描述</Description>
+    <Copyright>LazyCoder所有</Copyright>
+    <PackageIcon>ko.jpg</PackageIcon>
+  </PropertyGroup>
+
+  
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Ko\Pages\Page\" />
+    <Folder Include="Areas\Ko\Pages\Shared\" />
+    <Folder Include="wwwroot\lib\jquery\dist\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Knockout.Validation" Version="2.0.4" />
+    <PackageReference Include="knockoutjs" Version="3.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ko.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+  
+
+
+</Project>

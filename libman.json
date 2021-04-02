@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "defaultProvider": "unpkg",
+  "libraries": [
+    {
+      "library": "knockout@3.5.1",
+      "destination": "wwwroot/lib/knockout/",
+      "files": [
+        "build/output/knockout-latest.debug.js",
+        "build/output/knockout-latest.js",
+        "build/types/knockout.d.ts",
+        "LICENSE",
+        "package.json",
+        "README.md"
+      ]
+    },
+    {
+      "library": "jquery@3.6.0",
+      "destination": "wwwroot/lib/jquery/"
+    }
+  ]
+}

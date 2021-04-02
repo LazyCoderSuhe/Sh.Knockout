@@ -1,0 +1,33 @@
+﻿
+@model Sh.Knockout.PageViewModel
+<div class="btn-group">
+    @{
+        var n = Model.List.IndexOf(Model.Index);
+
+    }
+    @if (n > 0)
+    {
+        <button @Html.Raw(string.Format(Model.ActionString, Model.List[n - 1])) type="button" class="btn btn-white">
+            <i class="fa fa-chevron-left"></i>
+        </button>
+    }
+    @foreach (var item in Model.List)
+    {
+        if (item == Model.Index)
+        {
+            <button class="btn btn-white active"> @item </button>
+        }
+        else
+        {
+            <button @Html.Raw(string.Format(Model.ActionString, item)) class="btn btn-white"> @item</button>
+        }
+    }
+
+    @if (n > -1 && n + 1 < Model.List.Count)
+    {
+        <button @Html.Raw(string.Format(Model.ActionString, Model.List[n + 1])) type="button" class="btn btn-white">
+            <i class="fa fa-chevron-right"></i>
+        </button>
+    }
+
+</div>

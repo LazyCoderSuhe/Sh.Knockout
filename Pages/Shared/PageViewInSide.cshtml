@@ -1,0 +1,14 @@
+﻿@model string
+<div class="btn-group">
+    <button type="button" data-bind="ifnot:@(Model).isfirstindex(),click:function(){@(Model).clickcall(1)},clickBubble: false" class="btn btn-white">
+        Prev   <i class="fa fa-chevron-left"></i>
+    </button>
+    <!-- ko foreach:@(Model).list -->
+
+    <button class="btn btn-white " data-bind="text:$data,css:{'active':  $parent.@(Model).index()==$data},click:function(){$parent.@(Model).clickcall($data)}"> 0 </button>
+
+    <!-- /ko -->
+    <button type="button" data-bind="ifnot:@(Model).islastindex(),click:function(){@(Model).clickcall(@(Model).index()+1)},clickBubble: false" class="btn btn-white">
+        Next  <i class="fa fa-chevron-right"></i>
+    </button>
+</div>
