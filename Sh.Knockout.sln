@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sh.Knockout", "Sh.Knockout.csproj", "{99186165-0CA0-4F08-ADC1-411FAC982711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sh.Knockout", "Sh.Knockout.csproj", "{99186165-0CA0-4F08-ADC1-411FAC982711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sh.Knockout.Test", "..\Sh.Knockout.Test\Sh.Knockout.Test.csproj", "{FC28CAA9-0573-46C8-A08C-1CC009B34103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sh.Knockout.Test", "..\Sh.Knockout.Test\Sh.Knockout.Test.csproj", "{FC28CAA9-0573-46C8-A08C-1CC009B34103}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
