@@ -6,11 +6,12 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>LazyCoder</Authors>
     <Product>Sh.Knockout</Product>
-    <Description>这里现在只是封装了 分页 的控件信息 后期将继续封装关于 KO 与jq 的表单验证信息 方便 自己使用 同时每功能单 用单独的 readme 描述</Description>
+    <Description>这里现在是封装了 分页 的控件信息  KO 与jq 的表单验证信息 方便 自己使用、 同时每功能单 用单独的 readme 描述</Description>
     <Copyright>LazyCoder所有</Copyright>
     <PackageIcon>ko.jpg</PackageIcon>
     <RepositoryUrl>https://github.com/LazyCoderSuhe/Sh.Knockout</RepositoryUrl>
     <RepositoryType>GitHub</RepositoryType>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   
